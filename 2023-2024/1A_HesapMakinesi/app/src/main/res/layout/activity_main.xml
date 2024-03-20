@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="61dp">
+
+        <EditText
+            android:id="@+id/editSayi1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="1. sayıyı giriniz"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editSayi2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="2. sayıyı giriniz"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="233dp">
+
+        <Button
+            android:id="@+id/btnToplama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="toplama"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/btnCikarma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="cikarma"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/btnCarpma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="carpma"
+            android:text="*" />
+
+        <Button
+            android:id="@+id/btnBolme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="bolme"
+            android:text="/" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtSonuc"
+        android:layout_width="138dp"
+        android:layout_height="58dp"
+        android:text="Sonuc="
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="331dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

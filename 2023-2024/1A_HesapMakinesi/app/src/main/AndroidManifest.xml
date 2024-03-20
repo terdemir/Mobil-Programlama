@@ -10,25 +10,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme._1A_LayoutIslemleri"
+        android:theme="@style/Theme.HesapMakinesi"
         tools:targetApi="31">
-        <activity
-            android:name=".CizgiFilmUygulama"
-            android:exported="false"
-            android:screenOrientation="sensor"/>
-        <activity
-            android:name=".LayoutOrnek2"
-            android:exported="false" />
-        <activity
-            android:name=".LayoutOrnek"
-            android:exported="false"
-            android:screenOrientation="sensor" />
-        <activity
-            android:name=".OrnekUygulama"
-            android:exported="false" />
-        <activity
-            android:name=".LinearLayout"
-            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
