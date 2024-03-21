@@ -7,17 +7,22 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="150dp"
+        android:id="@+id/linearLayout"
+        android:layout_width="410dp"
+        android:layout_height="188dp"
+        android:layout_marginTop="98dp"
+        android:layout_marginBottom="57dp"
         android:gravity="center"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="188dp">
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <EditText
             android:id="@+id/editSayi1"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="71dp"
             android:layout_margin="10dp"
             android:ems="10"
             android:hint="1. sayıyı giriniz"
@@ -25,8 +30,8 @@
 
         <EditText
             android:id="@+id/editSayi2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="220dp"
+            android:layout_height="73dp"
             android:layout_margin="10dp"
             android:ems="10"
             android:hint="2. sayıyı giriniz"
@@ -34,17 +39,24 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="112dp"
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="24dp"
         android:gravity="center"
         android:orientation="horizontal"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="338dp">
+        app:layout_constraintBottom_toTopOf="@+id/txtSonuc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
         <Button
             android:id="@+id/btnToplama"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="toplama"
             android:text="+"
             android:textSize="16sp" />
 
@@ -52,27 +64,33 @@
             android:id="@+id/btnCikarma"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="cikarma"
             android:text="-" />
 
         <Button
             android:id="@+id/btnCarpma"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="carpma"
             android:text="*" />
 
         <Button
             android:id="@+id/btnBolme"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="bolme"
             android:text="/" />
     </LinearLayout>
 
     <TextView
         android:id="@+id/txtSonuc"
-        android:layout_width="107dp"
-        android:layout_height="52dp"
+        android:layout_width="162dp"
+        android:layout_height="84dp"
+        android:layout_marginBottom="204dp"
         android:text="Sonuç=0"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="474dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
