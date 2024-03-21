@@ -23,10 +23,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void toplama(View view){
-        int s1=Integer.parseInt(sayi1.getText().toString());
-        int s2=Integer.parseInt(sayi2.getText().toString());
-        int toplam=s1+s2;
-        sonuc.setText("Sonuç="+toplam);
+        if (sayi1.getText().toString().matches("") || sayi2.getText().toString().matches(""))
+        {
+            sonuc.setText("Lütfen alanları doldurunuz.");
+        } else {
+            int s1 = Integer.parseInt(sayi1.getText().toString());
+            int s2 = Integer.parseInt(sayi2.getText().toString());
+            int toplam = s1 + s2;
+            sonuc.setText("Sonuç=" + toplam);
+        }
     }
     public void cikarma(View view){
         int s1=Integer.parseInt(sayi1.getText().toString());
