@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "586463868549",
+    "project_id": "amasya-e4395",
+    "storage_bucket": "amasya-e4395.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586463868549:android:8a8f7d36ca3db4fc749bec",
+        "android_client_info": {
+          "package_name": "com.example.firebasegiris"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZyzdupyebuQiO809N9esuYWvhhjJNFbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

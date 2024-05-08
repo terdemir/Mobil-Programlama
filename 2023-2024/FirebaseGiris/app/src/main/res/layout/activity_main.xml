@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txteposta"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:hint="E-posta giriniz"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/txtparola"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtparola"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="29dp"
+        android:ems="10"
+        android:hint="Parola oluşturunuz"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/btnkayit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txteposta" />
+
+    <Button
+        android:id="@+id/btnkayit"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="394dp"
+        android:onClick="kayitol"
+        android:text="Kayıt ol"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtparola" />
+</androidx.constraintlayout.widget.ConstraintLayout>
