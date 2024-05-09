@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "299881909793",
+    "project_id": "merzifon-80bb8",
+    "storage_bucket": "merzifon-80bb8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299881909793:android:054beca46c1077218a9d60",
+        "android_client_info": {
+          "package_name": "com.example.a1b_firabasegiris"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFHtMn_mCHvoi9Ol1R-VNsm-A0GkfWwjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
