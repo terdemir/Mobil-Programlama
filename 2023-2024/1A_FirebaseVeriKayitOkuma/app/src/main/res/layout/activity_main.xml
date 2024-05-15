@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txtMetin"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="101dp"
+        android:ems="10"
+        android:hint="Kayıt olacak metni giriniz."
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/btnkayit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnkayit"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="84dp"
+        android:onClick="kaydet"
+        android:text="Kaydet"
+        app:layout_constraintBottom_toTopOf="@+id/txtMetinGoster"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtMetin" />
+
+    <TextView
+        android:id="@+id/txtMetinGoster"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="25dp"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnGoster"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnkayit" />
+
+    <Button
+        android:id="@+id/btnGoster"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="291dp"
+        android:onClick="goster"
+        android:text="Göster"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtMetinGoster" />
+</androidx.constraintlayout.widget.ConstraintLayout>
