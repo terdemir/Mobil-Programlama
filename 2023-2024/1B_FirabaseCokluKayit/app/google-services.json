@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "955332030785",
+    "project_id": "bfirabasecoklukayit",
+    "storage_bucket": "bfirabasecoklukayit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955332030785:android:24bb2fb48a65caa17d31c0",
+        "android_client_info": {
+          "package_name": "com.example.a1b_firabasecoklukayit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa3u7rDYrkRc8JXyEqsTqjmQBjstvMFVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

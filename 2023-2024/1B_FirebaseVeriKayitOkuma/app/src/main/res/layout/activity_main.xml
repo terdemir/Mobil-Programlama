@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="verigetir"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtMetinGir"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="164dp"
+        android:backgroundTint="#EAC0C0"
+        android:backgroundTintMode="screen"
+        android:ems="10"
+        android:hint="İsminizi Giriniz."
+        android:inputType="text"
+        android:textColor="#D78989"
+        app:layout_constraintBottom_toTopOf="@+id/txtVeriGoster"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnKaydet"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="523dp"
+        android:backgroundTint="#E36D6D"
+        android:backgroundTintMode="src_in"
+        android:onClick="kaydet"
+        android:text="Veri Kaydet"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtMetinGir" />
+
+    <TextView
+        android:id="@+id/txtVeriGoster"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="21dp"
+        android:textAlignment="center"
+        android:textColor="#4970B0"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnVeriGoster"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtMetinGir" />
+
+    <Button
+        android:id="@+id/btnVeriGoster"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="303dp"
+        android:backgroundTint="#D56969"
+        android:onClick="verigoster"
+        android:text="İsmi Getir"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtVeriGoster" />
+</androidx.constraintlayout.widget.ConstraintLayout>
