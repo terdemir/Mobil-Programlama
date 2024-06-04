@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "184243977892",
+    "project_id": "fir-verikayitokuma",
+    "storage_bucket": "fir-verikayitokuma.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184243977892:android:c05bcf6d214b7c8cb43031",
+        "android_client_info": {
+          "package_name": "com.example.a1a_firebaseverikayitokuma"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvA7TrnpM2scbUIhNFKQAsR-jnb8FICK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

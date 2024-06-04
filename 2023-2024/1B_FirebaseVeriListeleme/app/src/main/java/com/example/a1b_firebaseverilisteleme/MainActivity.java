@@ -4,6 +4,8 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -40,9 +42,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onDataChange(DataSnapshot veriler) {
                 for (DataSnapshot sonveri: veriler.getChildren()) {
-                    String deger = sonveri.getValue(String.class).toString();
 
-                    liste.add(deger);
+                       String deger = sonveri.getValue(String.class).toString();
+                       liste.add(deger);
 
                 }
                 filmliste.setAdapter(adapter);
@@ -53,5 +55,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+
     }
 }

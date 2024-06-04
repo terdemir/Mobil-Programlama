@@ -37,6 +37,8 @@ public class degiskenler {
        final String uni="Amasya Üniversitesi";
         System.out.println(uni);
 
+        
+
 
 
 

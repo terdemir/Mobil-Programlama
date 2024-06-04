@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "74324629217",
+    "project_id": "bfirebaseverikayitokuma",
+    "storage_bucket": "bfirebaseverikayitokuma.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74324629217:android:a56d57d08760eb4b2fc9a0",
+        "android_client_info": {
+          "package_name": "com.example.a1b_firebaseverikayitokuma"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0cCafjRcH9n_kuZStEe391-Ns-YYnpqI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -40,7 +40,7 @@ DatabaseReference veritabani;
         String yil=filmyili.getText().toString();
         String yonetmen=filmyonetmeni.getText().toString();
         String puan=filmpuani.getText().toString();
-
+        //String id = veritabani.push().getKey(); // her bir kayıt için eşsiz bir id oluşturur.
         if(!adi.isEmpty()&&!yil.isEmpty()&&!yonetmen.isEmpty()&&!puan.isEmpty()){
 
             veritabani.child("Filmler").child("filmadi").setValue(adi);
