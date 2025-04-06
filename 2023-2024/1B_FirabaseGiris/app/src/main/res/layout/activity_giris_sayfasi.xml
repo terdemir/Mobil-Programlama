@@ -8,9 +8,11 @@
 
     <EditText
         android:id="@+id/txtgiriseposta"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="142dp"
+        android:layout_marginEnd="24dp"
         android:layout_marginBottom="31dp"
         android:ems="10"
         android:hint="E-posta giriniz"
@@ -22,8 +24,10 @@
 
     <EditText
         android:id="@+id/txtgirisparola"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
         android:layout_marginBottom="37dp"
         android:ems="10"
         android:hint="Parola giriniz"
@@ -35,8 +39,10 @@
 
     <Button
         android:id="@+id/btngiris"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
         android:layout_marginBottom="341dp"
         android:onClick="girisyap"
         android:text="Giris"

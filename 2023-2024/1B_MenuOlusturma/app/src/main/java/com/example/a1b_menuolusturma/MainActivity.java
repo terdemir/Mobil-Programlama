@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return super.onCreateOptionsMenu(menu);
     }
-
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if(item.getItemId()==R.id.girisyap){
@@ -31,8 +30,6 @@ public class MainActivity extends AppCompatActivity {
             Intent gecis=new Intent(this, KayitOl.class);
             startActivity(gecis);
         }
-
-
         return super.onOptionsItemSelected(item);
     }
 }
